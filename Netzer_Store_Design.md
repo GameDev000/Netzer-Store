@@ -11,7 +11,7 @@
 המטרה היא למלא הזמנות במהירות ובדיוק, לנהל מלאי וסבלנות לקוחות, ולהרוויח כמה שיותר כסף לפני שכולם מתייאשים.  
 המשחק מיועד למחשב ולקונסולות.  
 
-![Screenshot](sandbox:/mnt/data/A_screenshot_of_a_2D_video_game_titled_"Netzer_Sto.png)  
+![Screenshot](https://github.com/LRR-Game-Dev-Project/Netzer-Store/blob/main/Netzer%20Store%20Preview.png) 
 
 ---
 
