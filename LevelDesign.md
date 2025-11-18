@@ -21,6 +21,25 @@
 5. מופיעים עוד 2–3 לקוחות לפי אותו עיקרון.
 6. הודעת סיום: השחקן מוכן לעבור לרמה קלה.
 
+<div dir="ltr">
+<pre>
++-------------------------------------------------+
+|                       C1                        |
+|                (single customer)                |
++-------------------------------------------------+
+|                  CHECKOUT AREA                  |
+|              (serve customer here)              |
++-------------------------------------------------+
+|  WATER BOTTLE     CHOCOLATE       SEEDS PACK    |
+|                                                 |
+|                  STORE AREA                     |
+|         (basic shelves / no inventory limit)    |
++-------------------------------------------------+
+| TIME:  ∞ (tutorial)        MONEY: 000           |
++-------------------------------------------------+
+</pre>
+</div>
+
 
 # רמה קלה
 
@@ -41,7 +60,36 @@
 2. חלקם מבקשים שני פריטים.
 3. לראשונה המלאי יכול להיגמר, כאן נכנסת ההדרכה על המחסן - הסבר הגעה, ומיקום המוצרים בו.
 4. הופעת לקוח חדש - לקוח מבולבל שגוזל זמן.
-5. הרמה נמשכת עד מספר לקוחות מסוים או זמן קבוע.
+5.הרמה נמשכת עד מספר לקוחות מסוים או זמן קבוע.
+<div dir="ltr">
+<pre>
++-----------------------------------------------------------------------+
+|           C1 (regular)                C2 (confused customer)          |
+|                     CUSTOMER QUEUE (2 max)                            |
++-----------------------------------------------------------------------+
+|                           CHECKOUT / REGISTER                         |
+|              [Serve items here + complete customer payment]           |
++-----------------------------------------------------------------------+
+|  DRINKS FRIDGE       SNACKS SHELF       SEEDS & NUTS STAND   GUMS &   |
+|  (water/cola)        (chips/choco)         (sunflower seeds)   MINTS  |
+|                                                                       |
+|-----------------------------------------------------------------------|
+|                        STORE FLOOR AREA                               |
+|  (basic navigation between shelves; slightly larger than tutorial)    |
+|                                                                       |
++-----------------------------------------------------------------------+
+|                         BACK ROOM / STORAGE                           |
+|        (rarely needed in Easy, but teaches location of stockroom)     |
+|          - spare drinks                                               |
+|          - extra snacks                                               |
+|          - nut refill bags                                            |
++-----------------------------------------------------------------------+
+| TIME: 02:00 avg                      MONEY: 000                       |
++-----------------------------------------------------------------------+
+
+</pre>
+</div>
+
 
 
 # רמה בינונית 
@@ -68,6 +116,33 @@
 5. הלקוח הצעקן מוריד סבלנות לכולם.
 6. עומס מתחיל להיווצר.
 7. הרמה נמשכת עד מספר לקוחות מסוים או זמן קבוע.
+<div dir="ltr">
+<pre>
++-----------------------------------------------------------------------------------+
+|             C1         C2         C3         C4         C5                        |
+|          (regular)  (angry)   (confused)  (regular)  (impatient)                  |
+|                               CUSTOMER QUEUE (5 max)                              |
++-----------------------------------------------+-----------------------------------+
+|                  CHECKOUT / REGISTER          |           NOISE AREA              |
+|   [serve items + payments; bottleneck zone]   |    (phone rings / loud music)     |
++-----------------------------------------------+-----------------------------------+
+|   DRINKS      SNACKS       SEEDS & NUTS       |      SMOKING PRODUCTS (NEW)       |
+|   FRIDGE      SHELF        STAND              |   (cigarettes / lighters / vapes) |
+|  (water/      (chips/      (sunflower         |                                   |
+|   cola)        choco)       seeds)            |                                   |
+|-----------------------------------------------------------------------------------|
+|                      GENERAL STORE FLOOR – MOVEMENT AREA                          |
+|   (wider navigation; distance between shelves matters for the first time)         |
++-------------------------------------------+---------------------------------------+
+|           BACK ROOM / STORAGE             |         SIDE TASK ZONE (optional)     |
+| - drink stock                             |   (restock alert / noise distraction) |
+| - snack cartons                           |                                       |
+| - nut refill bags                         |                                       |
++-------------------------------------------+---------------------------------------+
+| TIME: 04:00 avg          MONEY: 000          INVENTORY WARNINGS: ACTIVE           |
++-----------------------------------------------------------------------------------+
+</pre>
+</div>
 
 
 # רמה קשה
@@ -96,4 +171,28 @@
 6. הסבתא מאטה את כל התור.
 7. השחקן מנסה לייצב עומס רציני.
 8. הרמה נמשכת עד מספר לקוחות מסוים או זמן קבוע *(הוא חייב לשרוד זמן סביר בעומס)* .
-
+<div dir="ltr">
+<pre>
++--------------------------------------------------------------------------------------------+
+|          C1           C2             C3            C4             C5            C6         |
+|       (angry)     (old lady)     (confused)    (impatient)    (shouter)     (switcher)     |
+|                                       CUSTOMER QUEUE (8 max)                               |
++-----------------------------------------------------+--------------------------------------+
+|                     CHECKOUT AREA                   |              NOISE ZONE              |
+|     (payment bottleneck, long lines, slowdowns)     | (shouts / music / phone / ambience)  |
++-----------------------------------------------------+--------------------------------------+
+|  DRINKS FRIDGE    SNACKS WALL     SEEDS & NUTS      |     SMOKING PRODUCTS (cigs/vapes)    |
+|   (water/soda)    (chips/choco)    (sunflower)      |       + EXCLUSIVE ITEMS (rare)       |
+|--------------------------------------------------------------------------------------------|
+|                                MAIN STORE FLOOR (WIDE AREA)                                |
+|        (significant walking distance, requires planned routes under heavy load)            |
++-----------------------------+--------------------------------------------------------------+
+|  BACK ROOM – STORAGE A                        |  STORAGE B – RESTOCK STATION (NEW)         |
+|  - drinks cartons                             |  - fragile items (vapes/lighters)          |
+|  - snack boxes                                |  - refill crates for rare items            |
+|  - nut refill sacks                           |  - emergency stock (limited)               |
++--------------------------------------------------------------------------------------------+
+|                  TIME: 04:00 avg                                MONEY: 000                 |
++--------------------------------------------------------------------------------------------+
+</pre>
+</div>
