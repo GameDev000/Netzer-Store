@@ -26,4 +26,3 @@ jobs:
        # run: dotnet-format Assets/Scripts --check --folder --include **/*.cs --verbosity diagnostic
         run: dotnet-format . --check --folder --include **/*.cs --verbosity diagnostic
 
-ע
