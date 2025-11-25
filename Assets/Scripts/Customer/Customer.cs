@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Customer : MonoBehaviour
 {
-    public Vector3 targetPosition; 
+    public Vector3 targetPosition;
     public float moveSpeed = 2f;
     private bool isServed = false;
     public void SetTarget(Vector3 pos)
@@ -32,7 +32,7 @@ public class Customer : MonoBehaviour
 
     private IEnumerator LeaveAfterDelay()
     {
-        yield return new WaitForSeconds(1f); 
+        yield return new WaitForSeconds(1f);
         Vector3 exitPos = new Vector3(transform.position.x, transform.position.y + 5f, 0);
         
         while (Vector3.Distance(transform.position, exitPos) > 0.1f)
