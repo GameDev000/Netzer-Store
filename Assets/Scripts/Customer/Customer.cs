@@ -34,13 +34,11 @@ public class Customer : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         Vector3 exitPos = new Vector3(transform.position.x, transform.position.y + 5f, 0);
-        
         while (Vector3.Distance(transform.position, exitPos) > 0.1f)
         {
             transform.position = Vector3.MoveTowards(transform.position, exitPos, moveSpeed * Time.deltaTime);
             yield return null;
         }
-
         Destroy(gameObject); 
         FindObjectOfType<CustomerManager>().CustomerLeft();
     }
