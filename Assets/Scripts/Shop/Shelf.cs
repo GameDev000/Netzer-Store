@@ -1,10 +1,8 @@
 using UnityEngine;
-using UnityEngine.InputSystem; 
-
+using UnityEngine.InputSystem;
 public class Shelf : MonoBehaviour
 {
-    public GameObject productPrefab; 
-
+    public GameObject productPrefab;
     private bool playerInRange = false;
     private PlayerInventory playerInventory;
 

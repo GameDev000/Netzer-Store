@@ -39,7 +39,7 @@ public class Customer : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position, exitPos, moveSpeed * Time.deltaTime);
             yield return null;
         }
-        Destroy(gameObject); 
+        Destroy(gameObject);
         FindObjectOfType<CustomerManager>().CustomerLeft();
     }
 }

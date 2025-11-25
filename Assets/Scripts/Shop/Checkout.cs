@@ -38,8 +38,7 @@ public class Checkout : MonoBehaviour
 
     private void Update()
     {
-        if (playerInRange &&customerInRange &&playerInventory != null &&
-            playerInventory.isHolding &&Keyboard.current.eKey.wasPressedThisFrame){
+        if (playerInRange && customerInRange && playerInventory != null && playerInventory.isHolding && Keyboard.current.eKey.wasPressedThisFrame){
             GameObject product = playerInventory.DropProduct();
             currentCustomer.ReceiveProduct(product);
             GameManager.Instance.AddMoney(20);
